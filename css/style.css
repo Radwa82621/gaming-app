@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-color: var(--btn-main-color);
+}
+
+header img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+:root {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+}
+
+nav {
+    background-color: rgb(58, 73, 123) !important;
+
+    margin-inline: auto;
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+.nav-item .nav-link {
+    transition: all .5s;
+    font-size: 15px;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: #09c !important;
+    transition: color 0.5s;
+}
+
+.game-title .badge {
+    background-color: rgb(13, 110, 253);
+}
+ul li a{
+    cursor: pointer;
+}
+h5{
+    font-size: 14px;
+    color: white;
+}
+.badge{
+    font-size: 10px;
+}
+.card{
+background-color: var(--btn-main-color);
+}
+.card-body{
+    height: 200px;
+}
+.card-text{
+  font-size: .875em;  
+}
+.card{
+ filter: grayscale(80%);   
+ transition: all .5s ease;
+}
+.card:hover{
+    filter: grayscale(0%);
+    scale: 120%;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+button:hover a{
+color: white;
+text-decoration: none;
+
+}
+#close{
+    cursor: pointer;
+}
+

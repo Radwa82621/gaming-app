@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gaming app</title>
+    <script src="https://kit.fontawesome.com/92de104d46.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+<!--end navbar section  -->
+<section id="home">
+   <header>
+      <img src="images/wraper.png" alt="" class="w-100">
+  </header>
+  
+  <nav class="navbar navbar-expand-lg nav-bg position-sticky top-0 z-3 col-md-6 col-lg-9 navbar-dark">
+      <div class="container">
+        
+            <img src="images/logo-sm.png" alt="logo photo" style="max-width: 40px">
+            <h5 class="navbar-brand mb-0 text-uppercase"> Game Reviews
+         </h5>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse small navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0 menu small">
+               <li class="nav-item">
+                  <a role="button" class="nav-link active text-uppercase" aria-current="page" data-category="mmorpg" id="default">mmorpg</a>
+               </li>
+               <li class="nav-item">
+                  <a role="button" class="nav-link text-uppercase" data-category="shooter">shooter</a>
+               </li>
+               <li class="nav-item">
+                  <a role="button" class="nav-link text-uppercase" data-category="sailing">sailing</a>
+               </li>
+               <li class="nav-item">
+                  <a role="button" class="nav-link text-uppercase" data-category="permadeath">permadeath</a>
+               </li>
+               <li class="nav-item">
+                  <a role="button" class="nav-link text-uppercase" data-category="superhero">superhero</a>
+               </li>
+               <li class="nav-item">
+                  <a role="button" class="nav-link text-uppercase" data-category="pixel">pixel</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+    <div class="container py-5">
+        <div class="row" id="row">
+            <div class="col-md-4 col-lg-3">
+                <div class="card" class="p-1" >
+                    <img src="images/1 (1).jpg" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                        <div class="game-title d-flex justify-content-between my-3 " >
+                            <h5 class="card-title mb-0">Card title</h5>
+                            <span class="badge  py-0 d-flex justify-content-center align-items-center">New</span>
+
+                        </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="card-footer text-white d-flex justify-content-between">
+                        <span class="badge bg-secondary  d-flex justify-content-center align-items-center">New</span>
+                        <span class="badge bg-secondary  d-flex justify-content-center align-items-center">New</span>
+
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="details" class="d-none">
+   <div class="container">
+       <header class="d-flex justify-content-between align-items-center text-white">
+           <h1 class="text-center h3 py-4" id="detailsTitle"></h1>
+           <i class="fa-solid fa-xmark  fa-2x" id="close"></i>
+       </header>
+       <div class="row align-items-center">
+           <div class="col-md-4">
+               <img src="" class="w-100" alt="" id="detailsImg">
+           </div>
+           <div class="col-md-7 offset-md-1 text-white">
+               <h3>title:<span id="detailsName"> </span></h3>
+               <p class="fs-1 my-3">Category: <span id="detailsCategory"> </span> </p>
+               <p class="fs-1 my-3">Platform:<span id="detailsPlatform"> </span> </p>
+               <p class="fs-1 my-3">Status:<span id="detailsStatus"> </span> </p>
+
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-md-7 offset-md-5">
+               <p class="text-white" id="disc"></p>
+               <button class="btn btn-lg btn-warning rounded">
+                   <a href="" id="gameLink"> Show Game </a>
+               </button>
+           </div>
+       </div>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="module" src="js/main.js"></script>  
+  <script src="js/popper.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
